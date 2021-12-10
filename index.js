@@ -178,6 +178,8 @@ app.post("/addLogin", (req, res) => {
     })
 })
 
-app.listen(porta, () => {
-    console.log('Vamos arrasar neste projeto!')
-})
+// app.listen(porta, () => {
+//     console.log('Vamos arrasar neste projeto!')
+// })
+
+app.listen(process.conexao.PORT || 3000)
