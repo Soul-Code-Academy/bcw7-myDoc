@@ -209,5 +209,8 @@
   "bugs": {
     "url": "https://github.com/Soul-Code-Academy/bcw7-myDoc/issues"
   },
-  "homepage": "https://github.com/Soul-Code-Academy/bcw7-myDoc#readme"
+  "homepage": "https://github.com/Soul-Code-Academy/bcw7-myDoc#readme",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
 }
