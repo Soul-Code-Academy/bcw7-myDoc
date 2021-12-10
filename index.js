@@ -2,15 +2,9 @@ const express = require('express')
 const app = express()
 const client = require('./conexao')
 const dbo = client.db('hospital')
-// const porta = 5000
-const cors = require('cors')
+const porta = process.env.PORT|| 3000
 
-mongoose.connect(
-    process.env.MONGO_URL,
-    {
-        userNewrParser: true
-    }
-)
+
 
 /* Variável global */
 global.statusUser = -1
@@ -55,7 +49,6 @@ app.set('view engine', 'handlebars')
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-app.use(cors())
 
 app.use(express.static(__dirname + '/public'))
 
@@ -178,8 +171,7 @@ app.post("/addLogin", (req, res) => {
     })
 })
 
-// app.listen(porta, () => {
-//     console.log('Vamos arrasar neste projeto!')
-// })
+app.listen(porta, () => {
+    console.log('Vamos arrasar neste projeto!')
+})
 
-app.listen(process.conexao.PORT || 3000)

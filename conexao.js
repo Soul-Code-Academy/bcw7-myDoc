@@ -1,6 +1,6 @@
 /* Conexão com o banco de dados */
 const mongodb = require('mongodb').MongoClient
-const url = 'AQUI ACRESCENTA O ENDEREÇO DO BD'
+const url = 'mongodb+srv://alanadias:479856aa@cluster0.0h4vm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const client = new mongodb(url)
 
 async function conectar() {
