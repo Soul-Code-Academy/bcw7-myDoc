@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
+const path = require('path');
 const client = require('./conexao')
 const dbo = client.db('hospital')
-const porta = process.env.PORT|| 3000
+const porta = process.env.PORT|| 5000
 
 
 
