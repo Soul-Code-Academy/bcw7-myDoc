@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Soul-Code-Academy/bcw7-myDoc/issues"
   },
-  "homepage": "https://github.com/Soul-Code-Academy/bcw7-myDoc#readme"
+  "homepage": "https://github.com/Soul-Code-Academy/bcw7-myDoc#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
 }
