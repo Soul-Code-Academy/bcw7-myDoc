@@ -195,7 +195,8 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "start": "node index"
+    "start": "node index.js",
+     "build": "webpack"
   },
   "repository": {
     "type": "git",
