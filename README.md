@@ -4,6 +4,18 @@
 
 ### Projeto em equipe, do módulo Node.js do curso fullStack de desenvolvimento Web da SoulCode.
 
+Acesse a solução e simule você mesmo!
+
+Dados para usar:
+
+Administrativo:
+Login: admin@gmail.com
+Senha: admin
+
+Usuário Geral:
+Login: user@gmail.com
+Senha: user
+
 Link: https://mydoc-hospital.herokuapp.com/
 
 Equipe:
