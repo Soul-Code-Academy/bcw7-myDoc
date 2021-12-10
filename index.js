@@ -2,7 +2,15 @@ const express = require('express')
 const app = express()
 const client = require('./conexao')
 const dbo = client.db('hospital')
-const porta = 3000
+// const porta = 5000
+const cors = require('cors')
+
+mongoose.connect(
+    process.env.MONGO_URL,
+    {
+        userNewrParser: true
+    }
+)
 
 /* Variável global */
 global.statusUser = -1
@@ -46,6 +54,8 @@ app.set('view engine', 'handlebars')
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
+
+app.use(cors())
 
 app.use(express.static(__dirname + '/public'))
 
