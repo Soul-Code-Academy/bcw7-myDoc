@@ -1,6 +1,12 @@
-<a href="https://github.com/alanadiastech"><img src="https://i.ibb.co/vqxH5b5/MY-DOC.png" alt="MY-DOC" border="0"  height="100" width="250"></a>
-# MyDoc
+<div align="center">
+ 
+ # MyDoc
 
+ <a href="https://github.com/alanadiastech"><img src="https://i.ibb.co/vqxH5b5/MY-DOC.png" alt="MY-DOC" border="0"  height="100" width="250"></a>
+
+ ##
+ 
+</div>
 
 ### Projeto em equipe, do módulo Node.js do curso fullStack de desenvolvimento Web da SoulCode.
 
